@@ -62,7 +62,7 @@ h1{
 }
 .msg-container{
     height:100vmin;
-    gap:2vmin;
+    gap: 5vmin;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,4 +70,11 @@ h1{
 }
 .hide{
     display: none;
+}
+.msg-container img{
+    position: absolute;
+    top: 0;
+    width: 400px;
+    /* height: 100%; */
+    object-fit: cover;
 }
